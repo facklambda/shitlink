@@ -1,0 +1,13 @@
+[package]
+name = "shitlink"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+tokio = { version = "1.17.0", features = ["full"] }
+tokio-uring = "0.3.0"
+warp = "0.3.2"
+
+[features]
